@@ -1,0 +1,9 @@
+﻿<h2>Welcome to ASP.NET MVC @ViewData["Version"] on @ViewData["Runtime"]!</h2>
+<a>www.yourwebapplication.com/logon.aspx?username=<script>alert('hacker code')</script></a>
+<asp:Repeater ID="Repeater2" runat="server">
+  <ItemTemplate>
+    <%# Eval("YourField") %>
+  </ItemTemplate>
+</asp:Repeater>
+
+
